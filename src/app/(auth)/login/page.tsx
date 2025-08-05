@@ -280,11 +280,11 @@ export default function LoginPage() {
         <Box display="flex" justifyContent="center" alignItems="center" width={'100%'} gap={2} >
 
           <IconButton onClick={handleGoogleLogin} >
-            <Image src="/google.svg" alt="Google login" width={35} height={35} />
+            <Image src="/web_dark_rd_na.svg" alt="Google login" width={32} height={32} draggable={false} />
           </IconButton>
 
           <IconButton onClick={handleGithubLogin} >
-            <Image src="/github.svg" alt="GitHub login" width={38} height={38} />
+            <Image src="/github-mark.svg" alt="GitHub login" width={32} height={32} draggable={false} />
           </IconButton>
 
         </Box>
