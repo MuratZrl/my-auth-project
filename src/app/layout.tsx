@@ -5,6 +5,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Box } from '@mui/material';
 // ****************************************************************************************************
+import { Analytics } from '@vercel/analytics/react';
+// ****************************************************************************************************
 export const metadata: Metadata = {
   title: {
     default: 'My Auth App',
@@ -23,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Box>
           {children}
         </Box>
+        <Analytics />
       </body>
     </html>
   );
