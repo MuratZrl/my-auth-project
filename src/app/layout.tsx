@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 import { Box } from '@mui/material';
 // ****************************************************************************************************
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 // ****************************************************************************************************
 export const metadata: Metadata = {
   title: {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </Box>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
