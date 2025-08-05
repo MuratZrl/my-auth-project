@@ -11,8 +11,8 @@ export async function createServerSupabaseClient() {
     {
       cookies: {
         get: (key: string) => cookieStore.get(key)?.value,
-        set: () => {},     // Optional, istersen implement edebilirsin
-        remove: () => {},  // Optional, istersen implement edebilirsin
+        set: () => {},     // Optional
+        remove: () => {},  // Optional
       },
     }
   );
