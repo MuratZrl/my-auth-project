@@ -48,5 +48,5 @@ This project provides user registration, login, password reset, and secure authe
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/my-auth-project.git
+   git clone https://github.com/MuratZrl/my-auth-project.git
    cd my-auth-project
